@@ -48,7 +48,7 @@ function handleSubmit(event){
     sucessMessage.scrollIntoView({behavior: 'smooth', block: 'center'});
 
     setTimeout(() => form.reset(), 5000);
-    setTimeout(() => sucessMessage.classList.remove('show'), 7001);
+    setTimeout(() => sucessMessage.classList.remove('show'), 7000);
 
     exibirVoluntarios();
 
